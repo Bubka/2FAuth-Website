@@ -1,0 +1,89 @@
+<!DOCTYPE html >
+<html lang="en" class="has-background-black-ter">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2FAuth</title>
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="favicon-light.svg" rel="icon" media="(prefers-color-scheme: light)">
+    <link href="favicon-dark.svg" rel="icon" media="(prefers-color-scheme: dark)">
+    <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+    <style>
+        html, body { height: 100vh; }
+        article.block { margin-bottom: 2rem !important; }
+        .lucide { width: 1.2rem; }
+    </style>
+</head>
+
+<body>
+    <div class="container hero is-fullheight has-text-centered">
+        <header class="has-text-centered mt-6">
+            <div>
+                <figure class="image is-64x64 is-inline-block">
+                    <img class="is-block mb-6" src="icon-64-dark.png" />
+                </figure>
+            </div>
+            <h1 class="is-size-2 has-text-weight-light has-text-grey-light">
+                2FAuth
+            </h1>
+            <p>
+                A Web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes
+            </p>
+        </header>
+        <section class="section is-size-5 mt-5">
+            <article class="block">
+                <p class="mb-2">
+                    Installation & Usage guides
+                </p>
+                <a class="button is-link is-outlined" href="https://docs.2fauth.app/" title="Visit the documentation site" target="_blank">
+                    <span class="icon-text">
+                        <span>Docs</span>
+                        <span class="icon">
+                            <i data-lucide="external-link"></i>
+                        </span>
+                    </span>
+                </a>
+            </article>
+            <article class="block">
+                <p class="mb-2">
+                    Try it out on the demo site
+                </p>
+                <a class="button is-link is-outlined" href="https://demo.2fauth.app/" title="Test the demo app" target="_blank">
+                    <span class="icon-text">
+                        <span>Demo site</span>
+                        <span class="icon">
+                            <i data-lucide="external-link"></i>
+                        </span>
+                    </span>
+                </a>
+            </article>
+            <article class="block">
+                <p class="mb-2">
+                    Source code & Support
+                </p>
+                <a class="button is-link is-outlined" href="https://github.com/Bubka/2FAuth/" title="Visit the Github repository" target="_blank">
+                    <span class="icon-text">
+                        <span>Github</span>
+                        <span class="icon">
+                            <i data-lucide="external-link"></i>
+                        </span>
+                    </span>
+                </a>
+            </article>
+        </section>
+
+        <footer class="has-background-black-ter mt-auto pb-3">
+            <div class="is-size-7">
+                © Bubka – <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank">CC BY-SA 4.0 License</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
